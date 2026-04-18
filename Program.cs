@@ -12,19 +12,18 @@ namespace modul7_kelompok_4
             Console.WriteLine("=====================================");
             Console.WriteLine();
 
-            // JSON 1 - Data Mahasiswa
+            
             Console.WriteLine(">>> 1. DATA MAHASISWA <<<");
             DataMahasiswa103082400047 mhs = new DataMahasiswa103082400047();
             mhs.ReadJSON();
             Console.WriteLine();
 
-            // JSON 2 - Team Members
+            
             Console.WriteLine(">>> 2. TEAM MEMBERS <<<");
             TeamMembers103082400047 team = new TeamMembers103082400047();
             team.ReadJSON();
             Console.WriteLine();
 
-            // JSON 3 - Glossary Item
             Console.WriteLine(">>> 3. GLOSSARY ENTRY <<<");
             GlossaryItem103082400047 glossary = new GlossaryItem103082400047();
             glossary.ReadJSON();

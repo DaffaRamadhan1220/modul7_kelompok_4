@@ -5,14 +5,12 @@ using System.Text.Json;
 
 namespace modul7_kelompok_4
 {
-    // GlossDef class
     public class GlossDef
     {
         public string? para { get; set; }
         public List<string>? GlossSeeAlso { get; set; }
     }
 
-    // GlossEntry class
     public class GlossEntry
     {
         public string? ID { get; set; }
@@ -24,33 +22,28 @@ namespace modul7_kelompok_4
         public string? GlossSee { get; set; }
     }
 
-    // GlossList class
     public class GlossList
     {
         public GlossEntry? GlossEntry { get; set; }
     }
 
-    // GlossDiv class
     public class GlossDiv
     {
         public string? title { get; set; }
         public GlossList? GlossList { get; set; }
     }
 
-    // Glossary class
     public class Glossary
     {
         public string? title { get; set; }
         public GlossDiv? GlossDiv { get; set; }
     }
 
-    // Root class
     public class RootGlossary
     {
         public Glossary? glossary { get; set; }
     }
 
-    // Main class
     public class GlossaryItem103082400047
     {
         public void ReadJSON()
