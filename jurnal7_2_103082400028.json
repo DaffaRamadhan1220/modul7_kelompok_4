@@ -1,0 +1,37 @@
+[
+    {
+        "nim": "103082400047",
+        "firstname": "Daffa",
+        "lastname": "Ramadhan",
+        "age": 20,
+        "gender": "Male"
+    },
+    {
+        "nim": "103082400048",
+        "firstname": "Ivan",
+        "lastname": "Setiawan",
+        "age": 20,
+        "gender": "Male"
+    },
+    {
+        "nim": "103082400049",
+        "firstname": "Yosep",
+        "lastname": "Manik",
+        "age": 20,
+        "gender": "Male"
+    },
+    {
+        "nim": "103082400028",
+        "firstname": "Edward",
+        "lastname": "Adventus Dembo",
+        "age": 22,
+        "gender": "Male"
+    },
+    {
+        "nim": "103082400051",
+        "firstname": "Muhammad",
+        "lastname": "Rozi",
+        "age": 21,
+        "gender": "Male"
+    }
+]
