@@ -44,13 +44,13 @@ namespace modul7_kelompok_4
         public Glossary? glossary { get; set; }
     }
 
-    public class GlossaryItem103082400047
+    public class GlossaryItem103082400017
     {
         public void ReadJSON()
         {
             try
             {
-                string fileName = "jurnal7_3_103082400047.json";
+                string fileName = "jurnal7_3_103082400017.json";
                 string jsonString = File.ReadAllText(fileName);
                 RootGlossary? data = JsonSerializer.Deserialize<RootGlossary>(jsonString);
 

@@ -16,7 +16,7 @@ namespace modul7_kelompok_4
             // JSON DESERIALIZATION 2 - Team Members
             // ==========================================
             Console.WriteLine(">>> 2. TEAM MEMBERS <<<");
-            TeamMembers103082400047 team = new TeamMembers103082400047();
+            TeamMembers103082400017 team = new TeamMembers103082400017();
             team.ReadJSON();
             Console.WriteLine();
 
