@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-﻿using System;
+using System;
 
 namespace modul7_kelompok_4
 {
@@ -30,7 +29,3 @@ namespace modul7_kelompok_4
         }
     }
 }
-=======
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
->>>>>>> f7d0e7cbd7fbade1f6e7845e74dec93fa6c0c16d
